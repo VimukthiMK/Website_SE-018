@@ -1,0 +1,164 @@
+
+.logo{
+    position:relative;
+    width: 10%;
+    height: 45px;
+    float: left;
+    
+}
+.navbar{
+    background-color: black;
+    width:90%;
+    float: left;
+    
+}
+ul{
+    list-style: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    
+}
+li{
+    float: left;
+}
+.nav1{
+    display: inline-block;
+    color: white;
+    padding: 14px 26px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.nav1:hover {
+    background-color:lightgrey;
+    color: black;
+    cursor: pointer;
+
+}
+.thumbn{
+    width: 75%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+   
+
+}
+
+.thumbnail{
+    width: 100%;
+    padding-block: 30px;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif; font-size: 30px; text-shadow: 2px 2px 5px rgb(219, 219, 219);
+    word-spacing: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+.navbar2{
+    background-color: rgb(189, 173, 181);
+    width: 100%;
+    
+    
+}
+.nav2{
+    display: inline-block;
+    color: rgb(146, 12, 12);
+    padding: 8px 40px;
+    text-decoration: none;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+.nav2:hover {
+    background-color:black;
+    color:white;
+    cursor: pointer;
+
+}
+input[type=text]{
+    width: 100%;
+    box-sizing:border-box ;
+    border: 2px solid black;
+    border-radius: 4px;
+    font-size: 12px;
+    background-color: rgb(222, 223, 223);
+    padding-right: 60px;
+}
+ .feature{
+     width: 20%;
+     float: left;
+     padding-left:30px;
+     padding-right:30px;
+    
+    
+    } 
+    .featureimg{
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+        transform:scale(1);
+        transition: 0.3s ease-in-out;
+    }
+    .featureimg:hover{
+        transform:scale(1.1);
+        transition: 0.3s ease-in-out;
+        
+    }
+    .attr{
+        text-align: center;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 15px;
+        text-shadow: 2px 2px 5px rgb(187, 40, 40);
+    }
+    .product{
+        width: 30%;
+        float: left;
+        padding-left: 25px;
+        padding-right: 15px;
+        position: relative;
+       
+    }
+    .prodimg{
+        width: 60%;
+        height: auto;
+    
+    }
+    .prodimg:hover{
+        opacity: 0.6;
+        cursor: pointer;
+        
+    }
+    .element{
+        text-align: left;
+        font-family: arial;
+        font-weight: bold;
+        font-size: 13px;
+       
+    }
+    .services{ 
+        width: 33%;
+        float: left;
+        
+    }
+    .serviceimg{
+        width: 50%;
+        display:block;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto; 
+        transform:scale(1);
+        transition: 0.3s ease-in-out;  
+    }
+    .serviceimg:hover{
+        transform:scale(1.1);
+        transition: 0.1s ease-in-out; 
+    }
+  .serv{
+      font-weight: bolder;
+      color: rgb(114, 93, 89);
+      text-shadow: 2px 2px 2px black;
+  }
+    
